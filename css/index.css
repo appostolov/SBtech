@@ -1,0 +1,264 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+    font-family: 'HelveticaInseratLT';
+    src: url('../fonts/Helvetica_Inserat_LT.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/Helvetica_Inserat_LT.eot?#iefix') format('embedded-opentype'),/* Modern Browsers */
+    url('../fonts/Helvetica Inserat LT.ttf')  format('truetype');
+}
+
+*{
+	margin:0;
+	padding:0;
+}
+
+#flow{
+	position:relative;
+	min-width:800px;
+	max-width:1280px;
+	margin:0 auto;
+	margin-top:10px;
+}
+
+#logo{
+	position:fixed;
+	left:0;
+	top:80px;
+	z-index:3;
+}
+
+.flowPart{
+	position:relative;
+	overflow:auto;
+	margin-bottom:10px;
+	background:#cccccc;
+}
+
+#header{
+	height:110px;
+	overflow:visible;
+	z-index:2;
+}
+
+#upMenu{
+	position:absolute;
+	bottom:0;
+	left:10px;
+	height:30px;
+	overflow:visible;
+}
+
+.upMenuButton{
+	position:relative;
+	float:left;
+	padding:5px 30px;
+	margin-right:2px;
+	background:#666;
+	color:#FFF;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	cursor:pointer;
+}
+
+.upMenuButton:hover{
+	background:#000;
+}
+
+#gamesButton{
+}
+
+.upMenuButton span{
+	position:absolute;
+	font-weight:normal;
+	right:10px;
+	font-size:12px;
+	line-height:22px;
+}
+
+.upButtMenu{
+	position:relative;
+	float:left;
+	overflow:hidden;
+	height:30px;
+}
+
+#upMenuButton_Menu{
+	position:relative;
+	background:#000;
+	font-family:Tahoma;
+	font-size:12px;
+	color:#FFF;
+	padding:5px;
+	width:150px;
+}
+
+#upMenuButton_Menu p{
+	position:relative;
+	line-height:12px;
+	padding:5px;
+}
+
+#langMenu{
+	position:absolute;
+	bottom:8px;
+	right:8px;
+}
+
+#langMenu img{
+	display:block;
+	position:relative;
+	float:left;
+	margin-left:5px;
+	cursor:pointer;
+}
+
+.column{
+	position:relative;
+	float:left;
+	overflow:auto;
+}
+
+#columnLeft{
+	width:70%;
+}
+
+#columnRight{
+	width:30%;
+	background:#a3a3a3;
+}
+
+.columnContent{
+	position:relative;
+	margin:10px;
+	background:#515151;
+	padding:10px;
+}
+
+#pageTitle{
+	position:relative;
+	font-family: 'HelveticaInseratLT';
+	font-size:48px;
+	color:#FFF;
+	padding:10px 15px;
+}
+
+#pageTitleIE{
+	display:block;
+	position:relative;
+	padding:5px 0;
+}
+
+#mainArticle{
+	font-family:Tahoma;
+	font-size:12px;
+	color:#FFF;
+	border-top:2px groove #000;
+	padding:15px 10px 0 10px;
+}
+
+#mainArticle p{
+	display:inline;
+	padding-left:40px;
+	text-align:justify;
+}
+
+.rightColumnMenu{
+	position:relative;
+	font-family:Tahoma;
+	font-size:12px;
+	color:#FFF;
+	background:#000;
+	margin-bottom:1px;
+	height:36px;
+	overflow:hidden;
+}
+
+.rightColumnMenuButton{
+	padding:10px;
+	cursor:pointer;
+}
+
+.arrowDown{
+	position:absolute;
+	top:15px;
+	right:10px;
+	height:5px;
+}
+
+.rightColumnMenuContent{
+	padding:10px 10px 20px 10px;
+}
+
+#footer{
+	color:#515151;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:14px;
+	padding:0 20px;
+	overflow:auto;
+}
+
+#allRights{
+	position:relative;
+	float:left;
+	margin:10px 0;
+}
+
+#downMenu{
+	position:relative;
+	float:right;
+	margin:10px 0;
+}
+
+.downMenuButt{
+	position:relative;
+	float:left;
+	margin-left:20px;
+	text-decoration:underline;
+	cursor:pointer;
+}
+
+.downMenuButt:hover{
+	color:#000;
+}
+
+#dataTableHolder{
+	position:relative;
+	background:#282828;
+	min-height:300px;
+	margin:10px;
+	margin-right:30px;
+	padding:10px;
+}
+
+#dataTableHolder table{
+	position:relative;
+	width: 100%;
+    height: auto;
+    border-collapse: separate;
+    border-spacing: 2px;
+    text-align: center;
+	
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#dataTableHolder tr{
+	position:relative;
+	width:100%;
+}
+
+#dataTableHolder th{
+	margin:2px;
+	padding:5px;
+	background:#000;
+	font-size:18px;
+	font-weight:bold;
+	color:#FFF;
+}
+
+#dataTableHolder td{
+	margin:2px;
+	padding:5px;
+	background:#EEE;
+	color:#000;
+}
